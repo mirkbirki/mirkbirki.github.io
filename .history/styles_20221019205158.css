@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(31, 231, 164, 0.527);
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding-top: 10px
+}
+
+.proj1 {
+    margin: auto;
+    width: 250px;
+    word-wrap:break-word;
+}
+
+.p1 {
+    width: 100%;
+}
+
+.proj2 {
+    margin: auto;
+    width: 250px;
+    word-wrap:break-word;
+}
+
+.p2 {
+    width: 100%;
+}
+
+.proj3 {
+    margin: auto;
+    width: 250px;
+    word-wrap:break-word;
+}
+
+.p3 {
+    width: 100%;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
