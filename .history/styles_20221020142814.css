@@ -5,13 +5,11 @@ body {
 h1 {
     font-size: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white
 }
 
 header {
     text-align: center;
     padding-top: 20px;
-    background-color: rgb(1, 26, 71);
 }
 
 .header {
@@ -24,16 +22,15 @@ header {
 }
 
 .nav {
-    background-color: rgb(206, 118, 19);
+    background-color: rgb(37, 102, 224);
     width: 600px;
     border-radius: 10px;
-    padding: 1px;
+    padding: 5px;
 }
 
 .nav li {
     display: inline;
     padding-right: 100px;
-    color: black;
 }
 
 .nav a {
@@ -42,8 +39,8 @@ header {
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: rgb(0, 0, 0);
+a:hover {
+    color: rgb(7, 248, 27);
     font-size: 18px;
     text-decoration: none;
 }
@@ -63,7 +60,7 @@ nav {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     display: flex;
-    margin-top: 74px;
+    margin-top: 20px;
     padding-bottom: 25px;
 }
 
@@ -88,25 +85,4 @@ img {
     height: 300px;
     width: 400px;
     border-radius: 15px;
-}
-
-.footer {
-    background-color: rgb(1, 26, 71);
-    margin-top: 69px;
-    height: 150px;
-    color: white;
-    text-align: center;
-}
-
-footer a{
-    color: white;
-    text-decoration: 0;
-}
-
-footer a:hover {
-    color: rgb(206, 118, 19);
-}
-
-footer a:visited {
-    color: white;
 }
