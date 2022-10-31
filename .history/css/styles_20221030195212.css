@@ -159,12 +159,6 @@ main a:hover {
     font-weight: bold;
 }
 
-main h2 {
-    text-align: center;
-    margin-bottom: -110px;
-    margin-top: 100px;
-}
-
 .flex-container {
     width: 100%;
     display: flex;
