@@ -217,8 +217,6 @@ nav a:hover {
 }
 
 #contact textarea {
-  height: 8rem;
-  width: 90%;
   resize: none;
   font-size: 18px;
   border: none;
@@ -228,7 +226,6 @@ nav a:hover {
 }
 
 #contact button {
-  display: block;
   margin: 1rem auto 0 auto;
   width: 10rem;
   height: 2.5rem;
@@ -275,6 +272,8 @@ nav a:hover {
     padding-top: 1.5rem;
   }
 
+  /* ABOUT */
+
   #about {
     margin: 0 auto;
     width: 740px;
@@ -305,12 +304,6 @@ nav a:hover {
     font-weight: 500;
     text-align: left;
     margin-left: 1rem;
-  }
-
-  /* CONTACT */
-
-  #contact {
-    margin: 0 auto;
   }
 
 }
@@ -372,13 +365,6 @@ nav a:hover {
     margin-left: 1rem;
   }
   
-  /* CONTACT */
-
-  #contact form {
-    width: 60%;
-    margin: 3rem auto;
-  }
-
 }
 
 @media screen and (max-width: 520px) {
@@ -423,13 +409,6 @@ nav a:hover {
 
   #about li {
     font-size: 14px;
-  }
-
-  /* CONTACT */
-
-  #contact form {
-    width: 80%;
-    margin: 3rem auto;
   }
 
 }
