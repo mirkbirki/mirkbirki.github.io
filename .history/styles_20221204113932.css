@@ -1,22 +1,10 @@
 * {
-    font-family: arial,sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
 
 body {
-    margin: 0;
-    background-color: #505055d7;
-}
-
-.page {
-    position: fixed;
-    top: 0;
-    left: 15%;
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(254, 254, 255, 0.329);
 }
 
 /* HEADER */
@@ -31,88 +19,57 @@ header {
 }
 
 header img {
-    margin: 2rem auto 0.5rem auto;
+    margin: 1rem auto;
 }
 
 .nav {
-    width: 65%;
+    width: 42%;
     margin: 0 auto;
     display: flex;
     gap: 3rem;
     justify-content: center;
-    
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    background-color: #4343e9;
 }
 
 .nav a {
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
     padding: 0.5rem;
-}
-
-.nav a:hover {
-    color: #ff0000;
-}
-
-.nav .active {
-    background-color: #3271ce4b;
-    height: min-content;
 }
 
 /* MAIN CONTENT */
 
 main {
     text-align: center;
-    width: 57%;
+    width: 50%;
     margin: 0 auto;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 /* DESCRIPTION */
 
 main h1 {
-    font-size: 25px;
-    text-align: center;
+    font-size: 40px;
     margin: 3rem auto 0 auto;
 }
 
-main h1 a {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-main h1 a:hover {
-    color: #ff0000;
-}
-
-.p-link {
-    text-decoration: none;
-    color: #000000;
-}
-
-.p-link:hover {
-    color: #ff0000;
-}
-
 main p {
-    font-size: 18px;
-    text-align: left;
+    font-size: 22px;
     margin: 0 auto;
     word-spacing: 0.2rem;
     line-height: 1.8rem;
-    margin: 0.5rem auto 0 auto;
-    background-color: #54585a41;
-    padding: 0.5rem 0 0.5rem 1rem;
-    color: #000000;
 }
 
 /* WORKING HOURS AND LOCATION */
 
 .flex-hours-location {
     display: flex;
-    gap: 3rem;
-    margin: 3.5rem auto 0 auto;
+    gap: 2rem;
+    margin: 3rem auto;
     justify-content: center;
     width: 100%;
 }
@@ -123,22 +80,21 @@ main p {
 table {
     width: 300px;
     height: 304px;
-    border: 2px #24247c;
+    border: 2px solid rgba(0, 0, 0, 0.514);
     border-radius: 0.5rem;
     padding: 2rem;
-    background-color: #4343e9;
+    background-color: rgb(67, 67, 233);
     color: rgb(255, 255, 255);
 }
 
 th {
     padding-bottom: 1rem;
-    font-size: 34px;
+    font-size: 26px;
     letter-spacing: 0.1rem;
     text-shadow: 4px 3px 3px #000000;
 }
 
 tr, td {
-    font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.05rem;
     text-shadow: 4px 3px 3px #000000;
@@ -151,6 +107,6 @@ tr, td {
 .location iframe {
     width: 300px;
     height: 300px;
-    border: 2px solid #1d1d6338;
+    border: 2px solid rgba(67, 67, 233, 0.219);
     border-radius: 0.5rem;
 }

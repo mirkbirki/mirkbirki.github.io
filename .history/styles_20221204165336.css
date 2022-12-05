@@ -55,11 +55,6 @@ header img {
     color: #ff0000;
 }
 
-.nav .active {
-    background-color: #3271ce4b;
-    height: min-content;
-}
-
 /* MAIN CONTENT */
 
 main {
@@ -76,25 +71,6 @@ main h1 {
     margin: 3rem auto 0 auto;
 }
 
-main h1 a {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-main h1 a:hover {
-    color: #ff0000;
-}
-
-.p-link {
-    text-decoration: none;
-    color: #000000;
-}
-
-.p-link:hover {
-    color: #ff0000;
-}
-
 main p {
     font-size: 18px;
     text-align: left;
@@ -104,7 +80,7 @@ main p {
     margin: 0.5rem auto 0 auto;
     background-color: #54585a41;
     padding: 0.5rem 0 0.5rem 1rem;
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 
 /* WORKING HOURS AND LOCATION */

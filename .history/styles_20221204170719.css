@@ -55,11 +55,6 @@ header img {
     color: #ff0000;
 }
 
-.nav .active {
-    background-color: #3271ce4b;
-    height: min-content;
-}
-
 /* MAIN CONTENT */
 
 main {
