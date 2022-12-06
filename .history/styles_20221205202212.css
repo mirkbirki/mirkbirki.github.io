@@ -23,17 +23,6 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: rgb(255, 255, 255);
-}
-
-.page-scroll {
-    position: fixed;
-    top: 0;
-    left: 15%;
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
     overflow-y: scroll;
 }
 
@@ -128,36 +117,6 @@ main p {
 main h2 {
     font-size: 22px;
     margin: 3rem auto 1rem auto;
-}
-
-.info-box {
-    text-align: left;
-    margin: 0 auto;
-    word-spacing: 0.2rem;
-    line-height: 1.8rem;
-    margin: 3rem auto 2rem auto;
-    background-color: #54585a41;
-    padding: 0.5rem 0 0.5rem 1.5rem;
-    color: #000000;
-}
-
-.info-box h2 {
-    margin: 0.5rem auto 1rem auto;
-}
-
-.info-box p {
-    background-color: #ffffff00;
-    margin: 0;
-    padding: 0 0.3rem 0.5rem 0;
-}
-
-.info-box ul {
-    list-style-type: square;
-    padding-left: 1rem;
-}
-
-.info-box li {
-    padding: 0;
 }
 
 /* WORKING HOURS AND LOCATION */
