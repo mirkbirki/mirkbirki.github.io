@@ -181,7 +181,7 @@ main h2 {
 .hours {
 }
 
-.oppettider {
+table {
     width: 300px;
     height: 304px;
     border: 2px #24247c;
@@ -191,14 +191,14 @@ main h2 {
     color: rgb(255, 255, 255);
 }
 
-.oppettider-th {
+th {
     padding-bottom: 1rem;
     font-size: 34px;
     letter-spacing: 0.1rem;
     text-shadow: 4px 3px 3px #000000;
 }
 
-.oppettider-tr-td {
+tr, td {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.05rem;
@@ -295,63 +295,4 @@ main h2 {
 
 .grid-container a:hover {
     color: red;
-}
-
-.return {
-    display: block;
-    margin: 3rem auto;
-    width: 80px;
-    height: 80px;
-    border: 1px solid black;
-}
-
-.hastslap-info {
-    text-align: center;
-}
-
-.hastslap-info h1 {
-    font-size: 25px;
-    margin-bottom: 2rem;
-}
-
-.hastslap-grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 2rem;
-    margin: 0 auto 1.5rem auto;
-    padding: 0;
-    width: 70%;
-    align-items: center;
-    border: 1px solid black;
-}
-
-.hastslap-1 {
-}
-
-.hastslap-1 img {
-    width: 100%;
-}
-
-.red {
-    color: red;
-}
-
-.hastslap-2 {
-    text-align: left;
-    width: fit-content;
-}
-
-.uthyrning-table {
-
-}
-
-.hastslap-3 {
-    width: fit-content;
-    margin-left: -2rem;
-}
-
-.hastslap-3 ul {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;;
 }
