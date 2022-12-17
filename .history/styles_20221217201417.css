@@ -181,7 +181,7 @@ main h2 {
 .hours {
 }
 
-table {
+.oppettider {
     width: 300px;
     height: 304px;
     border: 2px #24247c;
@@ -191,14 +191,14 @@ table {
     color: rgb(255, 255, 255);
 }
 
-th {
+.oppettider-th {
     padding-bottom: 1rem;
     font-size: 34px;
     letter-spacing: 0.1rem;
     text-shadow: 4px 3px 3px #000000;
 }
 
-tr, td {
+.oppettider-tr-td {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.05rem;
@@ -251,18 +251,171 @@ tr, td {
     border-radius: 0.5rem;
 }
 
-/* GRID - Uthyrning */
+/* Uthyrning */
+
+.uthyrning {
+}
+
+.uthyrning h1 {
+    margin: 3rem auto 2rem auto;
+}
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 3rem auto;
+    grid-template-columns: auto auto;
+    margin: 0 auto 1.5rem auto;
+    padding: 0;
     width: 100%;
-    gap: 3rem;
-    justify-content: center;
-    border: 1px solid black;
+    align-items: center;
 }
 
 .grid-container img {
-    width: 110%;
+    width: 100%;
+    border-radius: 2rem;
+    border: 4px solid #1d1d6338;
+}
+
+.grid-container figcaption {
+    font-size: 20px;
+    padding: 0.5rem;
+} 
+
+.fig {
+
+}
+
+.fig:hover {
+    border: 4px solid red;;
+}
+
+.grid-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-container a:hover {
+    color: red;
+}
+
+.return {
+    display: block;
+    margin: 3rem auto;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.hastslap-info {
+    text-align: center;
+}
+
+.hastslap-info h1 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.hastslap-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin: 0 auto 3rem auto;
+    padding: 0 0 0 4rem;
+    width: 70%;
+    align-items: center;
+}
+
+.hastslap-1 {
+}
+
+.slap-img {
+    width: 100%;
+}
+
+.slap-img-portrait {
+    width: 70%;
+}
+
+.red {
+    color: red;
+}
+
+.hastslap-2 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.uthyrning-table {
+    width: 9rem;
+}
+
+.slap {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hastslap-3 {
+    margin-top: -3rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-4 {
+
+}
+
+.hastslap-5 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-6 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-8 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-9 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-11 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-12 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-14 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-15 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
 }

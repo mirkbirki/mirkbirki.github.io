@@ -318,11 +318,10 @@ main h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 2rem;
-    margin: 0 auto 1.5rem auto;
-    padding: 0;
+    margin: 0 auto 3rem auto;
+    padding: 0 0 0 4rem;
     width: 70%;
     align-items: center;
-    border: 1px solid black;
 }
 
 .hastslap-1 {
@@ -330,6 +329,10 @@ main h2 {
 
 .slap-img {
     width: 100%;
+}
+
+.slap-img-portrait {
+    width: 70%;
 }
 
 .red {
@@ -347,6 +350,7 @@ main h2 {
 }
 
 .slap {
+    text-align: left;
 }
 
 .bold {
@@ -357,10 +361,61 @@ main h2 {
     margin-top: -3rem;
     width: fit-content;
     margin-left: -2rem;
+    text-align: left;
 }
 
-.hastslap-3 ul {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;;
+.hastslap-4 {
+
+}
+
+.hastslap-5 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-6 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-8 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-9 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-11 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-12 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.hastslap-14 {
+    margin-top: -1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.hastslap-15 {
+    margin-top: -4rem;
+    width: fit-content;
+    margin-left: -2rem;
+    text-align: left;
 }
