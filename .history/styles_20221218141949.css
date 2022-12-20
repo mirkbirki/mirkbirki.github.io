@@ -423,7 +423,7 @@ main h2 {
 
 .hastslap-info-flex {
     display: flex;
-    margin: 0 auto 1rem;
+    margin: 0 auto;
     width: 60%;
     justify-content: center;
 }
@@ -431,11 +431,6 @@ main h2 {
 .hastslap-info-flex-1 {
     width: 50%;
 }
-
-.hastslap-info-flex-1-p {
-    padding-left: 0.7rem;
-}
-
 
 .hastslap-info-flex-2 {
     width: 50%;
@@ -458,16 +453,3 @@ main h2 {
     padding-left: 3rem;
 }
 
-.bilslap-table {
-    margin-top: 0.75rem;
-}
-
-.hastslap-grid-3c {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 2rem;
-    margin: 0 auto 3rem auto;
-    padding: 0 0 0 4rem;
-    width: 80%;
-    align-items: center;
-}
